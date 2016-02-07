@@ -1,4 +1,8 @@
-//Random test comment
+//Testing PR merging
+
+//Random test comments for Matt to merge 
+//I am just adding these to test out a PR
+
 var randomKart = Math.floor(Math.random() * 6) + 1;
 
 
