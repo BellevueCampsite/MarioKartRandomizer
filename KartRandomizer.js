@@ -1,3 +1,4 @@
+//Random test comment
 var randomKart = Math.floor(Math.random() * 6) + 1;
 
 
