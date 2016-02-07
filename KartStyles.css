@@ -1,0 +1,32 @@
+#consoleSelect {
+
+}
+
+#cupBox {
+	border: 1px solid black;
+	height: 200px;
+}
+
+#cupButton img {
+	
+}
+
+#driverTable {
+	padding: 20px 0px;
+}
+
+.driverRow {
+	padding: 0px 0px 30px 0px;
+}
+
+.driverRow div img {
+	padding-left: 50px;
+}
+
+#driverButton img {
+
+}
+
+.graybackground {
+	background-color: gray;
+}
