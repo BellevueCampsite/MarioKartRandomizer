@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarioKart Racer Randomizer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+</head>
+
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <!-- Selectable button that switches which version of MarioKart my randomizers use  -->
+            <div class="col-md-4 text-center" id="consoleSelect">N64 | WiiU</div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <!-- Images of the cup icons will randomly show here when I hit #cupButton -->
+            <div class="col-md-2" id="cupBox"></div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-2" id="cupButton">
+                <img src="img/questionblock.png" title="Press to Randomize Cup" class="center-block" width="90" height="auto">
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+         <div class="row">
+            <div class="col-md-2"></div>
+            <!-- Table with the drivers available. This HTML will change based on the selection of #consoleSelect -->
+            <div class="col-md-8" id="driverTable">
+                <div class="row driverRow">
+                    <div class="col-md-3"><img src="img/Mario.png" class="" id="Mario" alt="Mario" title="Mario" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Luigi.png" class="" id="Luigi" alt="Luigi" title="Luigi" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Peach.png" class="" id="Peach" alt="Peach" title="Peach" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Toad.png" class="" id="Toad" alt="Toad" title="Toad" width="200" height="200"></div>
+                </div>
+                <div class="row driverRow">
+                    <div class="col-md-3"><img src="img/Yoshi.png" class="" id="Yoshi" alt="Yoshi" title="Yoshi" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/DK.png" class="" id="DK" alt="DK" title="DK" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Bowser.png" class="" id="Bowser" alt="Bowser" title="Bowser" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Wario.png" class="" id="Wario" alt="Wario" title="Wario" width="200" height="200"></div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-2" id="driverButton">
+                <img src="img/questionblock.png" title="Press to Randomize Kart" class="center-block" width="90" height="auto">
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+
+    </div>
+    <script src="js/kartRandomizer.js" type="text/javascript"></script>
+</body>
