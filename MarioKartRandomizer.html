@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MarioKart Racer Randomizer</title>
     <link rel="stylesheet" href="css/KartStyles.css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    
+
 </head>
 
 
@@ -21,10 +22,10 @@
             <div class="col-md-4"></div>
         </div>
         <div class="row">
-            <div class="col-md-5"></div>
+            <div class="col-md-4"></div>
             <!-- Images of the cup icons will randomly show here when I hit #cupButton -->
-            <div class="col-md-2" id="cupBox"></div>
-            <div class="col-md-5"></div>
+            <div class="col-md-4" ><img class="center-block" id="cupBox" src="img/mushroomcup.png" width="175" height="auto"></div>
+            <div class="col-md-4"></div>
         </div>
         <div class="row">
             <div class="col-md-5"></div>
@@ -38,16 +39,16 @@
             <!-- Table with the drivers available. This HTML will change based on the selection of #consoleSelect -->
             <div class="col-md-8" id="driverTable">
                 <div class="row driverRow">
-                    <div class="col-md-3"><img src="img/Mario.png" class="" id="Mario" alt="Mario" title="Mario" width="200" height="200"></div>
-                    <div class="col-md-3"><img src="img/Luigi.png" class="" id="Luigi" alt="Luigi" title="Luigi" width="200" height="200"></div>
-                    <div class="col-md-3"><img src="img/Peach.png" class="" id="Peach" alt="Peach" title="Peach" width="200" height="200"></div>
-                    <div class="col-md-3"><img src="img/Toad.png" class="" id="Toad" alt="Toad" title="Toad" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Mario.png" id="Mario" alt="Mario" title="Mario" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Luigi.png" id="Luigi" alt="Luigi" title="Luigi" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Peach.png" id="Peach" alt="Peach" title="Peach" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Toad.png" id="Toad" alt="Toad" title="Toad" width="200" height="200"></div>
                 </div>
                 <div class="row driverRow">
-                    <div class="col-md-3"><img src="img/Yoshi.png" class="" id="Yoshi" alt="Yoshi" title="Yoshi" width="200" height="200"></div>
-                    <div class="col-md-3"><img src="img/DK.png" class="" id="DK" alt="DK" title="DK" width="200" height="200"></div>
-                    <div class="col-md-3"><img src="img/Bowser.png" class="" id="Bowser" alt="Bowser" title="Bowser" width="200" height="200"></div>
-                    <div class="col-md-3"><img src="img/Wario.png" class="" id="Wario" alt="Wario" title="Wario" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Yoshi.png" id="Yoshi" alt="Yoshi" title="Yoshi" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/DK.png" id="DK" alt="DK" title="DK" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Bowser.png" id="Bowser" alt="Bowser" title="Bowser" width="200" height="200"></div>
+                    <div class="col-md-3"><img src="img/Wario.png" id="Wario" alt="Wario" title="Wario" width="200" height="200"></div>
                 </div>
             </div>
             <div class="col-md-2"></div>
@@ -55,7 +56,7 @@
         <div class="row">
             <div class="col-md-5"></div>
             <div class="col-md-2" id="driverButton">
-                <img src="img/questionblock.png" title="Press to Randomize Kart" class="center-block" width="90" height="auto">
+                <img src="img/questionBlock.png" title="Press to Randomize Kart" class="center-block" width="90" height="auto">
             </div>
             <div class="col-md-5"></div>
         </div>
