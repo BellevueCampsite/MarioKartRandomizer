@@ -3,12 +3,10 @@
 }
 
 #cupBox {
-	border: 1px solid black;
-	height: 200px;
+	padding: 20px 0px;
 }
 
-#cupButton img {
-	
+#cupButton {
 }
 
 #driverTable {
@@ -20,13 +18,12 @@
 }
 
 .driverRow div img {
-	padding-left: 50px;
 }
 
 #driverButton img {
 
 }
 
-.graybackground {
-	background-color: gray;
+.orangeborder {
+	border: 2px solid #ff980f;
 }
